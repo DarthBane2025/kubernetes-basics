@@ -9,6 +9,7 @@ In this guide I will walk you through creating your first namespace, your first 
 ---
 ## What is a Namespace? 
 
+
 - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
 
 *"In Kubernetes, namespaces provide a mechanism for isolating groups of resources within a single cluster. Names of resources need to be unique within a namespace, but not across namespaces."*
@@ -27,6 +28,7 @@ kubectl get namespaces -A
 ---
 ## What is a Service Account? 
 
+
 - https://kubernetes.io/docs/concepts/security/service-accounts/
 
 *"A service account is a type of non-human account that, in Kubernetes, provides a distinct identity in a Kubernetes cluster. Application Pods, system components, and entities inside and outside the cluster can use a specific ServiceAccount's credentials to identify as that ServiceAccount."*
@@ -44,6 +46,7 @@ kubectl get sa -A
 
 ---
 ## What are Pods/Deployments? 
+
 
 - https://kubernetes.io/docs/concepts/workloads/pods/
 
@@ -68,6 +71,7 @@ kubectl get pods -A
 
 ---
 ## What is a service? 
+
 
 - https://kubernetes.io/docs/concepts/services-networking/service/
 
