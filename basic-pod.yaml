@@ -11,4 +11,6 @@ spec:
   containers:  
   - image: europe-central2-docker.pkg.dev/pooper-scooper/run-gmp/milk:v2 # >>> Application image for each pod replica
     name: only-pod-container    # >>> Container name
+    ports: 
+    - containerPort: 5000
 
